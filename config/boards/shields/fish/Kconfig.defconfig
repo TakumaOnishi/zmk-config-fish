@@ -7,4 +7,7 @@ if SHIELD_FISH_LEFT
 config ZMK_KEYBOARD_NAME
     default "Fish Keyboard"
 
+config ZMK_SPLIT
+    default n
+
 endif
