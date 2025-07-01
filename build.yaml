@@ -18,6 +18,4 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: seeeduino_xiao_ble
-    shield: fish_right
-  - board: seeeduino_xiao_ble
     shield: settings_reset
