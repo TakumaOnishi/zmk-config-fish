@@ -75,6 +75,11 @@
             bindings = <&kp LANG1>;
         };
 
+        combo_xn {
+            key-positions = <16 17>;
+            bindings = <&macro_tap &kp X &kp N>;
+        };
+
         combo_reset_L {
             key-positions = <3 8 13>;
             bindings = <&bootloader>;
